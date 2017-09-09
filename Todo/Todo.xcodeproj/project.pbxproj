@@ -15,6 +15,7 @@
 		E123FDF11F62F7CE00BBB5DA /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123FDF01F62F7CE00BBB5DA /* TodoTests.swift */; };
 		E123FDFC1F62F7CE00BBB5DA /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123FDFB1F62F7CE00BBB5DA /* TodoUITests.swift */; };
 		E123FE0A1F636C7200BBB5DA /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123FE091F636C7200BBB5DA /* TodoModel.swift */; };
+		E123FE0C1F638B5300BBB5DA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123FE0B1F638B5300BBB5DA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E123FDFB1F62F7CE00BBB5DA /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		E123FDFD1F62F7CE00BBB5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E123FE091F636C7200BBB5DA /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		E123FE0B1F638B5300BBB5DA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E123FDE21F62F7CE00BBB5DA /* Assets.xcassets */,
 				E123FDE41F62F7CE00BBB5DA /* LaunchScreen.storyboard */,
 				E123FDE71F62F7CE00BBB5DA /* Info.plist */,
+				E123FE0B1F638B5300BBB5DA /* DetailViewController.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				E123FE0A1F636C7200BBB5DA /* TodoModel.swift in Sources */,
 				E123FDDE1F62F7CE00BBB5DA /* ViewController.swift in Sources */,
 				E123FDDC1F62F7CE00BBB5DA /* AppDelegate.swift in Sources */,
+				E123FE0C1F638B5300BBB5DA /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

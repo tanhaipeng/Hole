@@ -30,6 +30,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         TodoModel(id:"1",image:"plane_s",title:"去机场",date:dateFromString(dateStr: "2017-07-09")!),
         TodoModel(id:"1",image:"shop_s",title:"去购物",date:dateFromString(dateStr: "2017-08-09")!),
         TodoModel(id:"1",image:"tel_s",title:"打电话",date:dateFromString(dateStr: "2017-06-09")!)]
+    
+        navigationItem.leftBarButtonItem = editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,8 +70,25 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     // edit model
     override func setEditing(_ editing: Bool, animated: Bool) {
-        <#code#>
+        super.setEditing(editing, animated: animated)
+        self.tableView.setEditing(editing, animated: animated)
     }
     
+    @IBAction func close(segue: UIStoryboardSegue){
+        tableView.reloadData()
+    }
+    
+    // view之间通信
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier=="edittodo"{
+            print("edit")
+            var vc = segue.destination as! DetailViewController
+            var indexPath = tableView.indexPathForSelectedRow
+            if let index = indexPath{
+                vc.todoOld = todos[index.row]
+            }
+        }
+        
+    }
 }
 
