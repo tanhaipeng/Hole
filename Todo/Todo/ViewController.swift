@@ -97,7 +97,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     // view之间通信
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier=="edittodo"{
-            print("edit")
             var vc = segue.destination as! DetailViewController
             var indexPath = tableView.indexPathForSelectedRow
             if let index = indexPath{

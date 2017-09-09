@@ -62,7 +62,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="2Wh-T8-Brb" kind="push" id="ydQ-b4-eos"/>
+                                            <segue destination="2Wh-T8-Brb" kind="push" identifier="edittodo" id="ydQ-b4-eos"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
