@@ -90,5 +90,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
         
     }
+    
+    public func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool{
+        return isEditing
+    }
+    
+    public func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath){
+        let todo = todos.remove(at: sourceIndexPath.row)
+        todos.insert(todo, at: destinationIndexPath.row)
+    }
 }
 

@@ -105,10 +105,10 @@
 				E123FDDD1F62F7CE00BBB5DA /* ViewController.swift */,
 				E123FE091F636C7200BBB5DA /* TodoModel.swift */,
 				E123FDDF1F62F7CE00BBB5DA /* Main.storyboard */,
+				E123FE0B1F638B5300BBB5DA /* DetailViewController.swift */,
 				E123FDE21F62F7CE00BBB5DA /* Assets.xcassets */,
 				E123FDE41F62F7CE00BBB5DA /* LaunchScreen.storyboard */,
 				E123FDE71F62F7CE00BBB5DA /* Info.plist */,
-				E123FE0B1F638B5300BBB5DA /* DetailViewController.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
