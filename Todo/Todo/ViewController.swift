@@ -67,7 +67,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     // edit model
-    
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        <#code#>
+    }
     
 }
 
