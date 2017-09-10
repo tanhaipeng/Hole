@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E129A54C1F654E0F00CC6CDE /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129A54B1F654E0F00CC6CDE /* FeedModel.swift */; };
 		E1328F021F63BF6F0079566B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1328F011F63BF6F0079566B /* AppDelegate.swift */; };
 		E1328F041F63BF6F0079566B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1328F031F63BF6F0079566B /* ViewController.swift */; };
 		E1328F071F63BF6F0079566B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1328F051F63BF6F0079566B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E129A54B1F654E0F00CC6CDE /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		E1328EFE1F63BF6F0079566B /* Hole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1328F011F63BF6F0079566B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1328F031F63BF6F0079566B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E1328F011F63BF6F0079566B /* AppDelegate.swift */,
 				E1328F031F63BF6F0079566B /* ViewController.swift */,
+				E129A54B1F654E0F00CC6CDE /* FeedModel.swift */,
 				E1328F051F63BF6F0079566B /* Main.storyboard */,
 				E1328F081F63BF6F0079566B /* Assets.xcassets */,
 				E1328F0A1F63BF6F0079566B /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1328F041F63BF6F0079566B /* ViewController.swift in Sources */,
+				E129A54C1F654E0F00CC6CDE /* FeedModel.swift in Sources */,
 				E1328F021F63BF6F0079566B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +422,7 @@
 				DEVELOPMENT_TEAM = N532BG9YPA;
 				INFOPLIST_FILE = Hole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.Hole;
+				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +435,7 @@
 				DEVELOPMENT_TEAM = N532BG9YPA;
 				INFOPLIST_FILE = Hole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.Hole;
+				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
