@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 // Feeds Storage
 var FeedsArray:[FeedModel] = []
