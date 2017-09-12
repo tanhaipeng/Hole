@@ -10,6 +10,11 @@ import UIKit
 
 class PublishViewController: UIViewController{
     
+    
+    @IBAction func publish(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
