@@ -422,7 +422,7 @@
 				DEVELOPMENT_TEAM = N532BG9YPA;
 				INFOPLIST_FILE = Hole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.hole;
+				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng.BeautyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +435,7 @@
 				DEVELOPMENT_TEAM = N532BG9YPA;
 				INFOPLIST_FILE = Hole/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.hole;
+				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng.BeautyGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
