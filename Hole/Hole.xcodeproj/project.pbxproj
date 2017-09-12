@@ -16,6 +16,7 @@
 		E1328F0C1F63BF6F0079566B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1328F0A1F63BF6F0079566B /* LaunchScreen.storyboard */; };
 		E1328F171F63BF6F0079566B /* HoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1328F161F63BF6F0079566B /* HoleTests.swift */; };
 		E1328F221F63BF700079566B /* HoleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1328F211F63BF700079566B /* HoleUITests.swift */; };
+		E1E9D1751F680E37009FDB74 /* PublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E9D1741F680E37009FDB74 /* PublishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E1328F1D1F63BF6F0079566B /* HoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1328F211F63BF700079566B /* HoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleUITests.swift; sourceTree = "<group>"; };
 		E1328F231F63BF700079566B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E9D1741F680E37009FDB74 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				E1328F011F63BF6F0079566B /* AppDelegate.swift */,
 				E1328F031F63BF6F0079566B /* ViewController.swift */,
+				E1E9D1741F680E37009FDB74 /* PublishViewController.swift */,
 				E129A54B1F654E0F00CC6CDE /* FeedModel.swift */,
 				E1328F051F63BF6F0079566B /* Main.storyboard */,
 				E1328F081F63BF6F0079566B /* Assets.xcassets */,
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E9D1751F680E37009FDB74 /* PublishViewController.swift in Sources */,
 				E1328F041F63BF6F0079566B /* ViewController.swift in Sources */,
 				E129A54C1F654E0F00CC6CDE /* FeedModel.swift in Sources */,
 				E1328F021F63BF6F0079566B /* AppDelegate.swift in Sources */,
