@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>DefaultData</key>
+	<dict>
+		<key>feed</key>
+		<string></string>
+	</dict>
+	<key>ApplicationApis</key>
+	<dict>
+		<key>feed</key>
+		<string>http://127.0.0.1:8080/hole/index.php/feed/pull</string>
+	</dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>

@@ -13,12 +13,7 @@ class PublishViewController: UIViewController{
     
     
     @IBAction func publish(_ sender: Any) {
-        Alamofire.request("http://127.0.0.1:8080/hole/index.php/demo/feed")
-            .responseJSON { response in
-                if let json = response.result.value {
-                    print("JSON: \(json)")
-                }
-        }
+        
     }
     
     override func viewDidLoad() {
