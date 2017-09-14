@@ -45,13 +45,6 @@ class ViewController: UIViewController,UITableViewDataSource{
     public func refreshData() {
         // 从缓存加载数据
         if FirstLoad {
-            // Load Feeds data
-            FeedsArray = [FeedModel(profile:"portrait",nickname:"飞翔的企鹅",signature:"#百度#",microblog:"房租又涨了，魔都，房贷加房租，月月吃土\n"),
-                          FeedModel(profile:"tiger",nickname:"鞋城大老虎",signature:"#携程#",microblog:"每次看到一帮人狼人杀，不回家的吗\n"),
-                          FeedModel(profile:"bear",nickname:"维尼熊",signature:"#南京大学#",microblog:"9月10号教师节打开，哈哈 #精致Q#\n"),
-                          FeedModel(profile:"cat",nickname:"风清扬",signature:"#阿里巴巴#",microblog:"阿里小p7。。。。本来想出去创业，股票加工资金200w\n"),
-                          FeedModel(profile:"teacher",nickname:"~Candy~",signature:"#上海中学#",microblog:"享受周末☀☀☀，教师节特地给自己买了礼物\n"),
-                          FeedModel(profile:"gril",nickname:"棉花糖",signature:"#陆家嘴金融#",microblog:"请大家吃咖喱牛肉，立志成为中华小当家\n"),]
             FirstLoad = false
         }
         

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4771562A106FC1B95F8326DCBB88E125"
-               BuildableName = "Pods_Hole.framework"
-               BlueprintName = "Pods-Hole"
+               BlueprintIdentifier = "90FAFA60A9CA01B0C97763707290CECA"
+               BuildableName = "SQLite.framework"
+               BlueprintName = "SQLite.swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4771562A106FC1B95F8326DCBB88E125"
-            BuildableName = "Pods_Hole.framework"
-            BlueprintName = "Pods-Hole"
+            BlueprintIdentifier = "90FAFA60A9CA01B0C97763707290CECA"
+            BuildableName = "SQLite.framework"
+            BlueprintName = "SQLite.swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
