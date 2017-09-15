@@ -54,6 +54,7 @@
 		E1328F1D1F63BF6F0079566B /* HoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1328F211F63BF700079566B /* HoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleUITests.swift; sourceTree = "<group>"; };
 		E1328F231F63BF700079566B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15B7B551F6AA876000865B0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E1E9D1741F680E37009FDB74 /* PublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +151,7 @@
 		F2DC8266240464CB4B6E7A58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E15B7B551F6AA876000865B0 /* libsqlite3.tbd */,
 				601F7BAE18DB2783A418A092 /* Pods_Hole.framework */,
 			);
 			name = Frameworks;
