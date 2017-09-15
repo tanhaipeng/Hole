@@ -5,7 +5,7 @@
 	<key>ApplicationApis</key>
 	<dict>
 		<key>feed</key>
-		<string>http://127.0.0.1:8080/hole/index.php/feed/pull</string>
+		<string>http://192.168.0.103:8080/hole/index.php/feed/pull</string>
 	</dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
