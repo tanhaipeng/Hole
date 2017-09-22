@@ -56,8 +56,6 @@ class PublishViewController: UIViewController{
         print(content)
     }
     
-    
-    
 }
 
 

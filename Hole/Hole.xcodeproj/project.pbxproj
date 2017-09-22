@@ -517,7 +517,7 @@
 					"-framework",
 					"\"Alamofire\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng.BeautyGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.hole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -536,7 +536,7 @@
 					"-framework",
 					"\"Alamofire\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tanhaipeng.BeautyGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhp.hole;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
